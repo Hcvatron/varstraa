@@ -13,8 +13,8 @@ background-color: var(--light-bg);
   .header-inner {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 5rem 0rem;
-    padding-top: 2rem;
+    padding: 2rem 0rem;
+    padding-top: 3rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -76,7 +76,7 @@ background-color: var(--light-bg);
   .actions {
     display: flex;
     align-items: center;
-    gap: 1.2rem;
+    gap: 1.5rem;
   }
   
   .icon,
@@ -96,7 +96,7 @@ background-color: var(--light-bg);
     display: flex;
     align-items: center;
     gap: 0.4rem;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 500;
     cursor: pointer;
     color: #333;
@@ -108,7 +108,7 @@ background-color: var(--light-bg);
   
   .cart {
     background: var(--ternary-color);
-    padding: 0.6rem;
+    padding: 1rem;
     border-radius: 50%;
     position: relative;
     cursor: pointer;

@@ -49,11 +49,11 @@ const Header = () => {
         <div className="actions">
           <FontAwesomeIcon icon={faSearch} className="icon" title="Search" />
           <div className="login" onClick={() => handleNavigation("/login")}>
-            <FontAwesomeIcon icon={faUser} />
+            <FontAwesomeIcon icon={faUser} size="xl" />
             <span>Log In</span>
           </div>
           <div className="cart" onClick={() => handleNavigation("/cart")}>
-            <FontAwesomeIcon icon={faShoppingCart} />
+            <FontAwesomeIcon icon={faShoppingCart} size="2x" />
             {cartItemCount > 0 && <span className="cart-badge">{cartItemCount}</span>}
           </div>
          {isMobileMenuOpen && <div className="hamburger" onClick={() => setIsMobileMenuOpen(true)}>

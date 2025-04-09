@@ -33,7 +33,7 @@
   left: 0;
   height: 2px;
   width: 80px;
-  background-color: var(--accent-color);
+  background-color: var(--dark-bg);
 }
 
   .deal-grid {
@@ -93,7 +93,7 @@
   }
   
   .deal-button {
-    background-color: var(--primary-color);
+    background-color: var(--dark-bg);
     color: var(--text-light);
     border: none;
     padding: 1rem 2rem;
@@ -104,19 +104,20 @@
   }
   
   .deal-button:hover {
-    background-color: var(--dark-bg);
+    background-color: var(--primary-color);
   }
   
   .explore-more-wrapper {
+    width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     margin-top: 3rem;
   }
   
   .explore-more-button {
     background-color: transparent;
-    border: 2px solid var(--primary-color);
-    color: var(--primary-color);
+    border: 2px solid var(--dark-bg);
+    color: var(--dark-bg);
     font-size: 1.6rem;
     padding: 1rem 2.5rem;
     border-radius: 0.5rem;
@@ -126,7 +127,7 @@
   }
   
   .explore-more-button:hover {
-    background-color: var(--primary-color);
+    background-color: var(--dark-bg);
     color: var(--text-light);
   }
   

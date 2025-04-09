@@ -11,7 +11,7 @@ const HeroCategories = () => {
     },
     {
       title: "Women's Ethnic",
-      subtitle: "Unveil elegance in timeless ethnic fashion.",
+      subtitle: "Unveil elegance in timeless ethnic fashion and grace.",
       cta: "Discover Now",
       imageText: "https://media.vogue.in/wp-content/uploads/2021/10/lashkaraafeatured-1366x768.jpg"
     }

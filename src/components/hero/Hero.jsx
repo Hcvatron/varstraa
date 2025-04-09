@@ -7,21 +7,22 @@ import HeroCategories from "./HeroCategories";
 
 const productData = [
   {
-    title: "WAY KAMBAS MINI EBONY",
-    description: "MATOA Way Kambas Maple comes with a material form of Canadian Maple.",
-    imageText: "PHOTO",
+    title: "ROYAL KURTA SET",
+    description: "A classic silk kurta with churidar, perfect for festive and wedding occasions.",
+    imageText: "https://static.wixstatic.com/media/fef19b_f6e311acea8c43868064cb720157628e~mv2.png/v1/crop/x_2,y_0,w_1998,h_2613/fill/w_560,h_732,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/fef19b_f6e311acea8c43868064cb720157628e~mv2.png",
   },
   {
-    title: "TOMIA MAPLE",
-    description: "Inspired by the natural beauty of Tomia Island, made with premium Maple wood.",
-    imageText: "PHOTO 2",
+    title: "ELEGANT SAREE",
+    description: "Drape elegance with this handwoven silk saree, ideal for timeless tradition.",
+    imageText: "https://gunjfashion.com/cdn/shop/files/sophisticated-kanjivaram-silk-elegant-saree-with-jacquard-work-in-mustard_1.jpg?v=1712574180",
   },
   {
-    title: "GILI ROSEWOOD",
-    description: "Crafted from Indonesian Rosewood for a luxurious and durable finish.",
-    imageText: "PHOTO 3",
+    title: "FESTIVE SHERWANI",
+    description: "An embroidered sherwani paired with a stole — made for grand celebrations.",
+    imageText: "https://www.tasva.com/cdn/shop/articles/MicrosoftTeams-image_13.jpg?v=1668154515&width=2048",
   },
 ];
+
 
 const Hero = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -49,7 +50,8 @@ const Hero = () => {
       <div className="hero-matoa-container">
         {/* Left: Photo */}
         <div className="hero-photo-box">
-          <div className="photo-placeholder">{imageText}</div>
+        <img className="photo-placeholder" src={imageText} alt={title} />
+
         </div>
 
         {/* Right: Details */}

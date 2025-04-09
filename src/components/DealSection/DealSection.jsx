@@ -62,7 +62,7 @@ const DealSection = () => {
         })}
       </div>
       <div className="explore-more-wrapper">
-    <button className="explore-more-button">Explore More</button>
+    <button className="explore-more-button">Explore More  ↗</button>
   </div>
     </section>
   );

@@ -18,7 +18,7 @@ html{
     /* Background & Text */
     --light-bg:#f5f5f5 ;
     --medium-bg:#E5E5E5 ;
-    --dark-bg: #D84727;
+    --dark-bg: #d54a2a;
   
     --text-dark: #222;
     --text-light: #fff;
@@ -34,7 +34,7 @@ html{
 
 body{
     width: 100%;
-   
+    background-color: var(--light-bg);
 }
 
 
