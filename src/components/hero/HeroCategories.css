@@ -58,6 +58,11 @@
   color: #000;
 }
 
+
+.hero-category-text .discover-btn{
+  font-weight: 200;
+}
+
 .hero-category-image {
   width: 100%;
   display: flex;

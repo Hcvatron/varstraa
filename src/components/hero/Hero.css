@@ -66,7 +66,7 @@
   }
   
   .hero-description {
-    width: 60%;
+    width: 75%;
     color: #444;
     line-height: 2rem;
     font-size: 1.6rem;
@@ -74,12 +74,12 @@
   }
   
   .hero-discover-link {
-    font-weight: bold;
     text-decoration: underline;
     margin-bottom: 1rem;
     margin: 0.8rem 0;
     color: #000;
-    font-size: 1rem;
+    font-size: 1.4rem;
+    letter-spacing: 0.8px;
     text-underline-offset: 4px;
   }
   
@@ -102,7 +102,7 @@
   .quantity-selector button {
     background: none;
     border: none;
-    font-size: 1.2rem;
+    font-size: 1.25rem;
     width: 1.5rem;
     cursor: pointer;
     color: #333;
@@ -112,7 +112,7 @@
     margin: 0 0.5rem;
     min-width: 2rem;
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.25rem;
   }
   
   /* Buttons */

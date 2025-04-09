@@ -8,17 +8,17 @@ import HeroCategories from "./HeroCategories";
 const productData = [
   {
     title: "ROYAL KURTA SET",
-    description: "A classic silk kurta with churidar, perfect for festive and wedding occasions.",
+    description: "A classic silk kurta with churidar that blends tradition and royalty. Featuring fine embroidery and a graceful silhouette, this ensemble is perfect for festive gatherings, cultural events, and grand wedding celebrations.",
     imageText: "https://static.wixstatic.com/media/fef19b_f6e311acea8c43868064cb720157628e~mv2.png/v1/crop/x_2,y_0,w_1998,h_2613/fill/w_560,h_732,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/fef19b_f6e311acea8c43868064cb720157628e~mv2.png",
   },
   {
     title: "ELEGANT SAREE",
-    description: "Drape elegance with this handwoven silk saree, ideal for timeless tradition.",
+    description: "This handwoven Kanjivaram silk saree embodies grace and timeless tradition. Accented with jacquard work and rich mustard tones, it's the perfect drape for festivals, weddings, and evening rituals where elegance meets culture.",
     imageText: "https://gunjfashion.com/cdn/shop/files/sophisticated-kanjivaram-silk-elegant-saree-with-jacquard-work-in-mustard_1.jpg?v=1712574180",
   },
   {
     title: "FESTIVE SHERWANI",
-    description: "An embroidered sherwani paired with a stole — made for grand celebrations.",
+    description: "Crafted for the modern groom, this sherwani features intricate embroidery and a luxurious silhouette. Complete with a matching stole, it's the ideal choice for engagement ceremonies, sangeets, and regal receptions.",
     imageText: "https://www.tasva.com/cdn/shop/articles/MicrosoftTeams-image_13.jpg?v=1668154515&width=2048",
   },
 ];
@@ -59,7 +59,7 @@ const Hero = () => {
           <h1 className="hero-title">{title}</h1>
           <hr className="hero-divider" />
           <p className="hero-description">{description}</p>
-          <a href="#" className="hero-discover-link"><span>Discover</span></a>
+          <a href="#" className="hero-discover-link"><span>Discover Now</span></a>
 
           <div className="hero-action-row">
             <div className="quantity-selector">
