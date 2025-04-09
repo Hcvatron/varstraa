@@ -7,13 +7,13 @@ const HeroCategories = () => {
       title: "Men's Ethnic",
       subtitle: "Explore traditional styles that blend culture with class.",
       cta: "Discover Now",
-      imageText: "PHOTO"
+      imageText: "https://www.tasva.com/cdn/shop/articles/Untitled_design_5bd745bf-971c-4334-981f-4f2e44533898.png?v=1728024330&width=2048"
     },
     {
       title: "Women's Ethnic",
       subtitle: "Unveil elegance in timeless ethnic fashion.",
       cta: "Discover Now",
-      imageText: "PHOTO"
+      imageText: "https://media.vogue.in/wp-content/uploads/2021/10/lashkaraafeatured-1366x768.jpg"
     }
   ];
 

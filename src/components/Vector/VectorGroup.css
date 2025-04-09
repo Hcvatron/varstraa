@@ -1,6 +1,6 @@
 .vector-group{
   position: absolute;
-  z-index: 1000;
+  z-index: 10000;
   right:0;
   top:-5%;
 }

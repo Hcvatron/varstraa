@@ -2,7 +2,7 @@
 .matoa-header {
     position: sticky;
     top: 0;
-    z-index: 1000;
+    z-index: 10000;
     font-family: 'Futura PT', 'Poppins', 'Montserrat', sans-serif;
 font-weight: 700;
 letter-spacing: 0.2rem;
