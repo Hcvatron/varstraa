@@ -29,11 +29,24 @@ const TopSeller = () => {
         <div className="top-seller-top">
        
         <div className="top-seller-left">
-        {/* <div className="deal-title-wrapper">
+        <div className="deal-title-wrapper">
             <h2 className="deal-title">Top Seller</h2>
-          </div> */}
+          </div>
+          <div className="ethnic-highlight">
+  <p className="ethnic-subheading">Celebrate Culture</p>
+  <h3 className="ethnic-heading">
+    Traditional Meets<br />
+    Trendy Elegance
+  </h3>
+  <p className="ethnic-description">
+    Handpicked styles for weddings, festivals, and daily grace.
+  </p>
+  <button className="ethnic-button">Shop Collection</button>
+</div>
+
         </div>
         <div className="top-seller-right">
+            <div className="top-seller-grid">
       {Object.entries(topSellers).map(([category, products]) => {
         const minPrice = Math.min(...products.map(p => p.price));
         return (
@@ -54,12 +67,13 @@ const TopSeller = () => {
           </div>
         );
       })}
+      </div>
+        <div className="see-more-container">
+        <button className="see-more-btn">See More</button>
+      </div>
            </div>
                 
         </div>
-      <div className="see-more-container">
-        <button className="see-more-btn">See More</button>
-      </div>
     </div>
   );
 };

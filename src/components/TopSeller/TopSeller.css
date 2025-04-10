@@ -1,10 +1,10 @@
 
   .top-seller-section {
-    padding: 40px 20px;
+    padding: 50px 20px;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    /* gap: 20px; */
+    align-items: center;
     justify-content: center;
     /* text-align: center; */
     width: 1200px;
@@ -13,12 +13,67 @@
 
   .top-seller-section .top-seller-top{
    display: flex;
+   align-items: flex-start;
   }
 
+  .top-seller-section .top-seller-left{
+    width: 40%;
+  }
+
+  .ethnic-highlight {
+    margin-top: 1.5rem;
+    padding-right: 2rem;
+  }
+  
+  .ethnic-subheading {
+    font-size: 0.95rem;
+    color: #b84a4a;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 0.3rem;
+  }
+  
+  .ethnic-heading {
+    font-size: 2.8rem;
+    font-weight: 500;
+    color: #222;
+    line-height: 1.3;
+    margin-bottom: 0.8rem;
+  }
+  
+  .ethnic-description {
+    width: 80%;
+    font-size: 1.35rem;
+    color: #444;
+    margin-bottom: 1.5rem;
+    line-height: 1.4;
+    letter-spacing: 0.1px;
+  }
+  
+  .ethnic-button {
+    padding: 10px 20px;
+    font-size: 1.25rem;
+    color: var(--dark-bg);
+    background-color: transparent;
+    border: 1px solid var(--dark-bg);
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .ethnic-button:hover {
+    background-color: #fff0f0;
+  }
+  
   .top-seller-section .top-seller-right{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+  }
+
+  .top-seller-section .top-seller-grid{
     display: flex;
     gap: 2rem;
-    margin-top: 6rem;
+    margin-top: 0.4rem;
   }
   
     .top-seller-section  .category {
@@ -94,21 +149,28 @@
   
   .top-seller-section  .see-more-container {
     width: 100%;
-    margin-top: 40px;
+    margin-top: 20px;
     text-align: center;
+  }
+
+
+  .top-seller-section  .see-more-container hr{
+    transform: rotate(90deg);
   }
   
   .top-seller-section  .see-more-btn {
-    padding: 10px 20px;
-    border: 1px solid #ff5e5e;
+    padding: 10px 80px;
+    border: 1px solid var(--dark-bg);
     background: transparent;
-    color: #ff5e5e;
+    color: var(--dark-bg);
     cursor: pointer;
-    font-size: 0.95rem;
+    font-size: 1.4rem;
     transition: 0.3s ease;
+    margin-left: -6rem;
   }
   
   .top-seller-section  .see-more-btn:hover {
-    background-color: #ffecec;
+    background-color: var(--dark-bg);
+    color: white;
   }
   
