@@ -24,7 +24,7 @@ const HeroCategories = () => {
           <div className="hero-category-text">
             <h3 className='h3head'>{cat.title}</h3>
             <p className='para'>{cat.subtitle}</p>
-            <a href="#" className='para discover-btn'>{cat.cta}</a>
+            <a href="#" className='para'>{cat.cta}</a>
           </div>
           <div className="hero-category-image">
             <img src={cat.imageText} alt={cat.imageText} />

@@ -3,7 +3,7 @@ import Hero from '../hero/Hero'
 import './Home.css'
 import DealSection from '../DealSection/DealSection'
 import Trending from '../Trending/Trending'
-import TopSellers from '../TopSeller/TopSeller'
+import TopSeller from '../TopSeller/TopSeller'
 
 const Home = () => {
   return (
@@ -11,7 +11,7 @@ const Home = () => {
         <Hero />
         <DealSection />
         <Trending />
-        <TopSellers />
+        <TopSeller />
     </div>
   )
 }

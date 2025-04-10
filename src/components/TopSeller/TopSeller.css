@@ -61,7 +61,8 @@
   }
   
   .ethnic-button:hover {
-    background-color: #fff0f0;
+    background-color: var(--dark-bg);
+    color: white;
   }
   
   .top-seller-section .top-seller-right{
