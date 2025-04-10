@@ -8,6 +8,13 @@
     margin-top: 3rem;
     /* border: 2px solid black; */
   }
+
+  .hero-matoa-section .vector-group{
+    position: absolute;
+    z-index: 10;
+    right:0;
+    top:-5%;
+  }
   
   .hero-matoa-container {
     display: flex;
