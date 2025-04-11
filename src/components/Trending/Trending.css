@@ -45,7 +45,7 @@
     line-height: 1.4;
   }
   
-  .trending-section .discover-btn {
+  .trending-section .trending-discover-btn{
     padding: 10px 24px;
     border: 1px solid #d23b3b;
     color: #d23b3b;
@@ -55,7 +55,7 @@
     transition: 0.3s ease;
   }
   
-  .discover-btn:hover {
+  .trending-discover-btn:hover {
     background: #d23b3b;
     color: white;
   }

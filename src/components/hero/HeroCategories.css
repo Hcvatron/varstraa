@@ -49,41 +49,7 @@
   line-height: 1.5;
 }
 
-.hero-category-text a {
-  font-family: 'Inter', sans-serif;
-  font-size: 1.25rem;
-  font-weight: 200;
-  color: #000;
-  z-index: 10;
-  text-decoration: none;
-  transition: 0.25s ease;
-  position: relative;
-  display: inline-block;
-  align-items: left;
-  padding-bottom: 0.25rem;
-  cursor: pointer;
-}
- 
-.hero-category-text a:after{
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  height: 1.5px;
-  width: 82px;
-  background-color: black;
-  transition: 0.2s ease;
-}
 
-
-.hero-category-text a:hover:after{
-  width: 60px;
-  background-color: var(--dark-bg);
-}
-
-.hero-category-text a:hover{
-  color: var(--dark-bg);
-}
 
 .hero-category-image {
   width: 100%;

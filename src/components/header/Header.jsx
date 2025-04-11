@@ -37,13 +37,14 @@ const Header = () => {
           <h2>Varstraa</h2>
         </div>
 
-        {/* Desktop Navigation */}
-        <nav className="nav-links">
-          <p onClick={() => handleNavigation("/watches")}>Watches</p>
-          <p onClick={() => handleNavigation("/eyewear")}>Eyewear</p>
-          <p onClick={() => handleNavigation("/accessories")}>Accessories</p>
-          <p onClick={() => handleNavigation("/news")}>News</p>
-        </nav>
+       {/* Desktop Navigation */}
+<nav className="nav-links">
+  <p onClick={() => handleNavigation("/ethnic/mens")}>Men's Ethnic</p>
+  <p onClick={() => handleNavigation("/ethnic/womens")}>Women's Ethnic</p>
+  <p onClick={() => handleNavigation("/ethnic/sarees")}>Kid's Ethnic</p>
+  <p onClick={() => handleNavigation("/ethnic/sherwanis")}>Sherwanis</p>
+</nav>
+
 
         {/* Icons */}
         <div className="actions">

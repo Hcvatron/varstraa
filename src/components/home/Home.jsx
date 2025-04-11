@@ -4,6 +4,8 @@ import './Home.css'
 import DealSection from '../DealSection/DealSection'
 import Trending from '../Trending/Trending'
 import TopSeller from '../TopSeller/TopSeller'
+import Testimonial from '../Testimonial/Testimonial'
+import CollectionSection from '../Collections/Collectionsection'
 
 const Home = () => {
   return (
@@ -12,6 +14,8 @@ const Home = () => {
         <DealSection />
         <Trending />
         <TopSeller />
+        <Testimonial />
+        <CollectionSection />
     </div>
   )
 }

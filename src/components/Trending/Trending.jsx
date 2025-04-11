@@ -14,7 +14,7 @@ const Trending = () => {
           <h3 className="trending-title">
             Graceful Ethnic Wear <br /> For Every Occasion
           </h3>
-          <button className="discover-btn">Discover</button>
+          <button className="trending-discover-btn">Discover</button>
         </div>
 
         <div className="trending-right">
