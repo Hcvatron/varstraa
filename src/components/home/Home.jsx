@@ -6,6 +6,7 @@ import Trending from '../Trending/Trending'
 import TopSeller from '../TopSeller/TopSeller'
 import Testimonial from '../Testimonial/Testimonial'
 import CollectionSection from '../Collections/Collectionsection'
+import Newsletter from '../Newsletter/Newsletter'
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
         <TopSeller />
         <Testimonial />
         <CollectionSection />
+        <Newsletter />
     </div>
   )
 }
